@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+main{
+    height: 90%;
+    width: 65%;
+    background: url(./background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 11;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.nav-part-1{
+    color: white;
+}
+.nav-part-2{
+    display: flex;
+    gap: 10px;
+}
+.nav-part-2 button{
+    background: none;
+    border: none;
+    color: rgb(223, 215, 215);
+}
+.nav-part-3{
+    width: fit-content ;
+    
+}
+.nav-part-3 i{
+    background-color: white;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.center{
+    z-index: 8;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.content{
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#top{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content h1{
+    font-size: 3.2rem;
+    word-spacing: 2rem;
+}
+#bottom{
+    width: 100%;
+    text-align: right;
+}
+.center img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-38%);
+}
+.center button{
+    position: absolute;
+    margin-top: 5rem;
+    padding: 1rem 2rem;
+    background-color: #F7D579;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.vision-section{
+    position: absolute;
+    background-color: #322538;
+    color: white;
+    padding: 40px 80px;
+    height: 300px;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    clip-path: polygon(       0% 0%,
+        10% 3%,
+        20% 6%,
+        30% 9%,
+        40% 12%,
+        50% 14%,
+        60% 12%,
+        70% 9%,
+        80% 6%,
+        90% 3%,
+        100% 0%,
+        100% 100%,
+        0% 100%);
+}
+
+.vision-section h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.divider{
+    width: 100%;
+    height: 2px;
+    background-color: #e1d3ac;
+    position: relative;
+    margin: 50px 0;
+}
+.diamond{
+    width: 10px;
+    height: 10px;
+    background-color: #F7D579;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 50%;
+    margin-top: -5px;
+}
+.left{
+    left: 0;
+}
+.center{
+    left: 50%;
+    transform: translate(50% 50%) rotate(45deg);
+    width: 14px;
+    height: 14px;
+}
+.right{
+    right: 0;
+}
+.paragraph{
+    display: flex;
+    gap: 5rem;
+    color: rgb(165, 160, 160);
+}
